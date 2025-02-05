@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap-5.3.3-dist//css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Eingabe</title>
+</head>
+<body class="center">
+    <header class="contenair center">
+        <h1 class="text-danger titre bg-warning">LOTTO BBC</h1>
+    </header>
+    <br><br><br>
+    <div class="center bg-black text-white T2" >
+        <header class="text-warning">
+            <h2>Eingabe der Nummer</h2>
+        </header>
+        <fieldset class="" >
+            <form action="final1.html" id="eingab" onsubmit="return wahl()">
+                <label for="x">Adresse E-Mail</label><br><input type="email" id="mail" name="mail" class="bg-white" required ><br><br><label for="codewahl">Codewahl</label><br><input type="text" id="code" name="code" required class="bg-white"><br><br><label for="nummer">Deine 6 nummer(Beispiel: 48,5,6,23,35,47,6)<br><input type="text" id="nummer"></label><br><br><label for="zf">Deine Nummer<br><input type="number" min="1" max="49" step="1" id="zf"></label> <br><br>
+                <input type="submit" class="btn btn-warning" id="bn" value="Eingeben"></input>
+            </form>
+        </fieldset>
+    </div>
+<script src="./bootstrap-5.3.3-dist/js/bootstrap.js"></script> 
+<script src="./main3.js"></script>
+</body>
+</html>

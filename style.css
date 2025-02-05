@@ -1,0 +1,72 @@
+.center
+{
+    text-align: center;
+    height: 500;
+}
+fieldset
+{
+    text-align: center;
+}
+.T2
+{
+    width: 500px;
+    height: 580px;
+    margin: auto;
+    padding-top: 50px;
+
+}
+.T1
+{
+    width: 500px;
+    height: 300px;
+    margin: auto;
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+.tll
+{
+    margin: auto;
+    width: 500px;
+    height: 300px;
+    padding-top: 10px;
+}
+.falsch
+{
+    border-color: red;
+}
+body
+{
+    background-image: url("./IMG_1238.JPG");
+    background-size: contain;
+}
+input
+{
+    width: 300px;
+}
+@media(max-width:1200px)
+{
+    .titre
+    {
+        font-size: 60px;
+    }
+    .tll
+{
+    margin: auto;
+    width: 300px;
+    height: 300px;
+    padding-top: 10px;
+}
+input
+{
+    width: 200px;
+}
+.T1
+{
+    width: 300px;
+}
+.T2
+{
+    width: 400px;
+}
+
+}
