@@ -1,6 +1,6 @@
 async function hers(code, token){
     try{
-        var resp = await fetch("https://project-rho-hazel.vercel.app/benutzer/1/ziehung", {
+        var resp = await fetch("https://metadata-mauve.vercel.app/benutzer/1/ziehung", {
             method : "post",
             headers : {"Content-Type" :"application/json","authoriz":token},
             body : JSON.stringify({codewahl : code})  
