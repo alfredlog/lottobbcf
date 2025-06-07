@@ -1,6 +1,6 @@
 async function hers(mails, code, token){
     try{
-        var resp = await fetch("https://project-rho-hazel.vercel.app/benutzer/1/Series", {
+        var resp = await fetch("https://metadata-mauve.vercel.app/benutzer/1/Series", {
             method : "post",
             headers : {"Content-Type" :"application/json","authoriz":token},
             body : JSON.stringify({codewahl : code, Emails:mails,})  
