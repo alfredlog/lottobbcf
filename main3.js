@@ -15,7 +15,7 @@ var nummer = sessionStorage.getItem("nummer")
 var zf = sessionStorage.getItem("zf")
 async function W(mail, code, nummer, ziffer){
     try{
-        var resp = await fetch("https://project-rho-hazel.vercel.app/wahlen", {
+        var resp = await fetch("https://metadata-mauve.vercel.app/wahlen", {
             method : "post",
             headers : {"Content-Type" :"application/json"},
             body : JSON.stringify({codewahl : code, Email:mail,wahl:nummer,ziffer:zf})  
